@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Bolo de Chocolate",
+    "categoria": "ALIMENTOS",
+    "preco": 25.00,
+    "quantidade": 30,
+    "descricao": ""
+  },
+  {
+    "id": 2,
+    "nome": "Pastel de Frango",
+    "categoria": "ALIMENTOS",
+    "preco": 10.00,
+    "quantidade": 15,
+    "descricao": ""
+  },
+  {
+    "id": 3,
+    "nome": "Salgadinho Cheetos Onda Requeijão 160g",
+    "categoria": "ALIMENTOS",
+    "preco": 6.70,
+    "quantidade": 25,
+    "descricao": ""
+  },
+  {
+    "id": 4,
+    "nome": "Chiclete Trident XSenses Melancia Mint 54g",
+    "categoria": "ALIMENTOS",
+    "preco": 1.50,
+    "quantidade": 19,
+    "descricao": ""
+  },
+  {
+    "id": 5,
+    "nome": "Camisa Polo Básica Azul - GG Masculina",
+    "categoria": "VESTUARIO",
+    "preco": 36.99,
+    "quantidade": 11,
+    "descricao": ""
+  },
+  {
+    "id": 6,
+    "nome": "Sapato Social - N°41/42",
+    "categoria": "VESTUARIO",
+    "preco": 35.50,
+    "quantidade": 3,
+    "descricao": ""
+  },
+  {
+    "id": 7,
+    "nome": "Calça Jeans Clara - N°38",
+    "categoria": "VESTUARIO",
+    "preco": 32.00,
+    "quantidade": 0,
+    "descricao": ""
+  },
+  {
+    "id": 8,
+    "nome": "Vestido Floral - GG",
+    "categoria": "VESTUARIO",
+    "preco": 30.00,
+    "quantidade": 1,
+    "descricao": ""
+  },
+  {
+    "id": 9,
+    "nome": "Papel Higiênico Neve Toque de Seda Folha Dupla 40 rolos - 30M",
+    "categoria": "DIVERSOS",
+    "preco": 55.99,
+    "quantidade": 5,
+    "descricao": ""
+  }
+]

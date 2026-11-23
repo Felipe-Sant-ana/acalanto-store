@@ -1,0 +1,21 @@
+### Build ###
+target/
+
+### IDEs ###
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+### Sistema operacional ###
+.DS_Store
+
+### Certificados e chaves gerados localmente (veja o README) ###
+config/*.p12
+config/*.jks
+config/*.cer
+
+### Temporário da gravação atômica do JSON ###
+dados/*.tmp
