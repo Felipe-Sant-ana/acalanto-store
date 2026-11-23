@@ -2,7 +2,7 @@
 
 Aplicação desktop cliente-servidor para consulta e gestão de produtos da Pousada Acalanto, desenvolvida em Java. Este projeto faz parte do Projeto Integrador III-A do curso de Análise e Desenvolvimento de Sistemas da Pontifícia Universidade Católica de Goiás (PUC Goiás).
 
-<!-- Gif de Demonstração (será incluído posteriormente) -->
+<img width="1920" height="1080" alt="Demonstracao" src="https://github.com/user-attachments/assets/465c1b7a-7251-4ed5-aaac-59ec34246ff6" />
 
 ---
 
