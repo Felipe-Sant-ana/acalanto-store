@@ -181,7 +181,7 @@ Por segurança, a chave privada e os certificados **não** estão no repositóri
 .\scripts\gerar-certificados.cmd
 ```
 
-**Linux e macOS:**
+**Windows com Git Bash, Linux e macOS:**
 
 ```bash
 bash scripts/gerar-certificados.sh
@@ -393,6 +393,31 @@ A interface abriu, mas não conseguiu obter os dados. Verifique:
 - A mensagem em vermelho no rodapé indica a causa (servidor fora do ar, falha de TLS etc.)
 - O log do servidor no console, que registra cada conexão e falha
 - Se `dados/produtos.json` existe e contém os produtos
+
+</details>
+
+<details>
+<summary><strong>O script .cmd falha com caminho estranho ou "comando não reconhecido"</strong></summary>
+
+O terminal pode não ser o esperado:
+
+- No **Git Bash**, use `bash scripts/gerar-certificados.sh`
+- No **Prompt de Comando** ou **PowerShell**, use `.\scripts\gerar-certificados.cmd`
+- O nome do terminal aparece no canto direito do painel do VS Code; para trocar, use a seta ao lado do botão **+**
+
+</details>
+
+<details>
+<summary><strong>Erros de Java/JDK ao executar o script ou o projeto</strong></summary>
+
+Verifique no terminal:
+
+```bash
+java -version
+keytool -help
+```
+
+Ambos devem funcionar e indicar o JDK 21 ou superior. Se `keytool` não for reconhecido ou a versão estiver errada, confira a variável `JAVA_HOME` (deve apontar para a pasta do JDK, não para `bin`) e o `PATH`. No VS Code, o JDK usado pelo projeto também pode ser escolhido em **Java: Configure Java Runtime**.
 
 </details>
 
